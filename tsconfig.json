@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es6",
+      "dom",
+      "ES2015"
+    ],
+    "outDir": "public.js",
+    "rootDir": "src",
+    "strict": true, 
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true 
+  },
+  "include": ["src"]
+
+}
